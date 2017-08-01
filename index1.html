@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 
+	<meta name="x5-fullscreen" content="true">
+	<!-- 屏蔽百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index1.css">
+    <!-- Swiper JS -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index1.js"></script>
+
+</head>
+<body>
+<div id="allPage">
+	<div class="top">
+		<div class="city">
+			<span class="text">南京</span>
+			<img src="images/arrows_03.png">
+			<ul class="select">
+				<li>盐城</li>
+				<li>无锡</li>
+				<li>苏州</li>
+				<li>常州</li>
+			</ul>
+		</div>	
+		<!-- 中间搜索框 -->
+		<input type="text" class="search" placeholder="请输入商品名、品类、或商圈...">
+		<img src="images/seacrh_03.png" class="glass">
+		<!-- 右边扫一扫 -->
+		<div>
+			<img src="images/sweep_03.png"class="sweep">
+		</div>
+	</div>
+		<!-- 轮播图 -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="images/banner2_02.png"></div>
+			<div class="swiper-slide"><img src="images/banner_2.png"></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="middle">
+	<!-- 图标 -->
+		<div class="icon">
+			<table>
+				<tr>
+					<td><img src="images/food1.png"></td>
+					<td class="hotelicon"><img src="images/hotel2.png"></td>
+					<td><img src="images/outlook3.png"></td>
+					<td><img src="images/relaxation4.png"></td>
+				</tr>
+				<tr>
+					<td>美食</td>
+					<td>酒店</td>
+					<td>景点</td>
+					<td>休闲娱乐</td>
+				</tr>
+				<tr>
+					<td><img src="images/roll5.png"></td>
+					<td class="filmicon"><img src="images/film6.png"></td>
+					<td><img src="images/holiday7.png"></td>
+					<td><img src="images/shopping8.png"></td>
+				</tr>
+				<tr>
+					<td>闪惠团购</td>
+					<td>电影</td>
+					<td>度假套餐</td>
+					<td>购物</td>
+				</tr>
+			</table>
+			<div class="line"></div>
+		</div>
+		<!-- 免费体验区	 -->
+		<div class="freedom">
+			<div class="head">
+				<ul>
+					<li>免费体验区</li>
+					<li>距离开始 | <span id="timer">02:25:59</span></li>
+					<li>查看更多></li>
+				</ul>
+			</div>
+			<div class="body">
+				<ul>
+					<li><img src="images/icecream_03.png"></li>
+					<li><img src="images/drink_05.png"></li>
+					<li><img src="images/fruit_09.png"></li>
+					<li><img src="images/pizze_10.png"></li>
+				</ul>
+				<ul>
+					<span>冰淇淋</span>
+					<span style="margin-left:15px">果蔬饮料</span>
+					<span>水果拼盘</span>
+					<span>美味披萨</span>
+				</ul>
+				<ul>
+					<li><img src="images/car_17.png"></li>
+					<li><img src="images/photo_19.png"></li>
+					<li><img src="images/ball_18.png"></li>
+					<li><img src="images/foot_18.png"></li>
+				</ul>
+				<ul>
+					<span>洗车擦车</span>
+					<span>摄影写真</span>
+					<span>台球休闲</span>
+					<span>足浴养生</span>
+				</ul>
+			</div>	
+			<div class="line"></div>
+		</div>	
+		<!-- 玖邦尼创富	 -->
+			<div class="treasure">
+			<div class="head">
+				<ul>
+					<li>玖邦尼创富</li>
+					<li>邦尼币购物，超值超划算！</li>
+					<li>查看全部></li>
+				</ul>
+			</div>
+			<div class="body">
+				<ul>
+					<li><img src="images/treasure_1.png"></li>
+					<li><img src="images/treasure_2.png"></li>
+					<li><img src="images/treasure_3.png"></li>
+					<li><img src="images/treasure_4.png"></li>
+				</ul>
+				<ul>
+					<li><img src="images/treasure_5.png"></li>
+					<li><img src="images/treasure_6.png"></li>
+					<li><img src="images/treasure_7.png"></li>
+					<li><img src="images/treasure_8.png"></li>
+				</ul>
+			</div>
+			<div class="line"></div>
+		</div>	
+		<!-- 猜你喜欢 -->
+		<div class="like">
+			<div class="head">
+				<ul>
+					<li>猜你喜欢</li>
+					<li>查看所有></li>
+				</ul>
+			</div>
+			<div class="like_list1">
+				<img src="images/cake1_03.png">
+				<div class="like-right">
+					<div class="text1">
+						<span>香贝贝蛋糕/蛋挞</span><span class="right"><1Km</span>
+					</div>
+					<p>【高皇寨花都莲郡小区门向西30米】</p>
+					<div class="text2">
+						<span  class="left">￥49.00元</span><span class="right">月销量：1523份</span>
+					</div>		
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="like_list2">
+				<img src="images/xg2_07.png">
+				<div class="like-right">
+					<div class="text1">
+						<span>天天见面麻辣香锅</span><span class="right"><1Km</span>
+					</div>
+					<p>【经三路与晨旭路交叉口西100米麻辣香锅】</p>
+					<div class="text2">
+						<span  class="left">￥49.00元</span><span class="right">月销量：1233份</span>
+					</div>		
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="like_list3">
+				<img src="images/noodle3_09.png">
+				<div class="like-right">
+					<div class="text1">
+						<span>重庆小面</span><span class="right"><1Km</span>
+					</div>
+					<p>【郑州市金水区庙李南二街345号】</p>
+					<div class="text2">
+						<span  class="left">￥6.00元</span><span class="right">月销量：1202份</span>
+					</div>		
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--查看更多团购隐藏 -->
+			<div id="likeMore"> 
+				<div class="like_list1">
+					<img src="images/cake1_03.png">
+					<div class="like-right">
+						<div class="text1">
+							<span>香贝贝蛋糕/蛋挞</span><span class="right"><1Km</span>
+						</div>
+						<p>【高皇寨花都莲郡小区门向西30米】</p>
+						<div class="text2">
+							<span  class="left">￥49.00元</span><span class="right">月销量：1523份</span>
+						</div>		
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="like_list2">
+					<img src="images/xg2_07.png">
+					<div class="like-right">
+						<div class="text1">
+							<span>天天见面麻辣香锅</span><span class="right"><1Km</span>
+						</div>
+						<p>【经三路与晨旭路交叉口西100米麻辣香锅】</p>
+						<div class="text2">
+							<span  class="left">￥49.00元</span><span class="right">月销量：1233份</span>
+						</div>		
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="like_list3">
+					<img src="images/noodle3_09.png">
+					<div class="like-right">
+						<div class="text1">
+							<span>重庆小面</span><span class="right"><1Km</span>
+						</div>
+						<p>【郑州市金水区庙李南二街345号】</p>
+						<div class="text2">
+							<span  class="left">￥6.00元</span><span class="right">月销量：1202份</span>
+						</div>		
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="open" onclick="checkAll()">查看全部团购</div>
+		<div id="close" onclick="checkAll()">收起全部</div>
+	</div>
+	<!-- 底部脚注 -->
+	<div class="footer">
+		<img src="images/fun_01.png" >
+		<img src="images/fun_02.png" >
+		<img src="images/fun_03.png" >
+		<img src="images/fun_04.png" >
+	</div>
+</div>
+</body>
+</html>

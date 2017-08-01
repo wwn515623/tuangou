@@ -1,0 +1,211 @@
+#allPage{
+	width:100%;
+	height:auto;
+	font-family:"微软雅黑";
+}
+.top{
+	width:100%;
+	height:0.72rem;
+	background:#02a1fc;
+	position:fixed;
+	z-index:999;
+}
+.city{
+	text-align:center;
+	width:0.8rem;
+	height:0.72rem;
+	line-height:0.73rem;
+	font-size:0.2rem;
+	margin-left:0.2rem;
+	background:#02a1fc;
+	color:#fff;
+}
+/* 导航滚动条 */
+.select{
+	width:1rem;
+	height:2rem;
+	overflow:scroll;
+}
+.city ul li{
+		background:#02a1fc;
+}
+.city img{
+	position:absolute;
+	top:0.26rem;
+	left:1rem;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+/* 搜索框 */
+input::-webkit-input-placeholder{
+	   	color:#fff;
+/* 	   	text-indent:30px; */
+	   	/* 移动input框内字体 */
+}
+.top input{
+	display:block;
+	width:3.7rem;
+	height:0.38rem;
+	position:absolute;
+	top:0.15rem;
+	left:1.5rem;
+	border-radius:6px;
+	border:1px solid #fff;
+	background:#02a1fc;
+	padding-left:0.5rem;
+	box-sizing: border-box;
+}
+.glass{
+	position:absolute;
+	top:0.21rem;
+	left:1.57rem;
+	width: 0.3rem;
+	height: 0.26rem;
+}
+/* 扫一扫 */
+.sweep{
+	width: 0.35rem;
+	height:0.35rem;
+	top:0.17rem;
+	right:0.35rem;
+	position:absolute;
+}
+/* 轮播图*/			
+.swiper-wrapper img{
+	width:100%;
+	height: 2.05rem;
+	margin-top:0.72rem;
+}
+/* 图标 */
+.icon{
+	width:100%;
+	height:auto;
+}
+.icon table{
+	margin:0.1rem auto;
+	text-align:center;
+	width:90%;
+	height:3rem;
+	font-size:0.16rem;
+}
+
+.icon img{
+ 	width: 70%;
+ 	padding-bottom:0.02rem;
+ }
+.hotelicon img{
+	margin-left:10px;
+}
+.filmicon img{
+	width: 0.94rem;
+	height: 0.94rem;
+}
+.line{
+	width:100%;
+	height:0.1rem;
+	background:#e5e5e5;
+	margin-top:10px;
+}
+/* 免费体验区 */
+.freedom,.treasure,.like{
+	width: 100%;
+	margin-top:0.2rem;
+	color:#5c5d5d;
+}
+.freedom .head ul,.treasure .head ul,.like .head ul{
+	width:92%;
+	height:0.4rem;
+	display:flex;
+	font-size:0.20rem;
+	margin:0 auto;
+	justify-content:space-between;
+
+}
+.head li:nth-of-type(1){
+	font-size:0.23rem;
+	border-left:3px #02a1fc solid;
+	padding-left:10px;	
+}
+#timer{
+	color:#02a1fc;
+}
+.freedom .body ul,.treasure .body ul{
+	width:95%;
+	display:flex;
+	margin:0 auto;
+	justify-content:space-around;
+	align-items:center;
+}
+.freedom .body ul li,.treasure .body ul li{
+	margin-top:0.16rem;
+}
+.freedom .body ul li img,.treasure .body ul li img{
+	width: 1.3rem;
+	height: 1.1rem;
+}
+/* 猜你喜欢 */
+.like_list1,.like_list2,.like_list3,#open,#close{
+	width:92%;
+	margin:0 auto;
+	margin-top:5px;
+	border-top:1px #eee solid;
+	padding:15px 0;
+}
+#open,#close{
+	text-align:center;
+	height:0.3rem;
+	line-height:0.3rem;
+}
+.like_list2,.like_list3,#open,#close{
+	margin-top:15px;
+}
+.like img{
+	width:35%;
+}
+.like-right{
+	width:59%;
+	margin-left:10px;
+}
+.like img,.like-right{
+	float:left;
+}
+.like-right .right{
+	float:right;
+}
+.like-right .left{
+	color:red;
+}
+.like p,.text2{
+	margin-top:10px;
+}
+.clear{
+	clear:both;
+}
+#likeMore,#close{
+	display:none;
+}
+/* 脚注 */
+.footer{
+/* 	width:100%;
+	display:flex;
+	justify-content:space-around;
+	background:#0c97f8;
+	position:fixed;
+	z-index:999; */
+	position:absolute;
+	bottom:0px;
+	width: 100%;
+	height:1rem;
+	background:#0c97f8;
+	display:flex;
+	justify-content:space-around;
+	position:fixed;
+}
+.footer img{
+	width:0.8rem;
+	height:0.6rem;
+	margin-top:0.16rem;
+}
+.middle{
+	margin-bottom:1.0rem;
+}
